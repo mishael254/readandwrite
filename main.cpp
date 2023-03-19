@@ -17,7 +17,7 @@ int main() {
 		
 
 		//appending the passwords to prevent rewriting of the previous passwords from the file
-		pswrd_file.open("password.txt", ios::app);
+		pswrd_file.open("password.txt", ios::app); 
 		if (pswrd_file.is_open()) {
 			pswrd_file<< int(l1) << int(l2) << int(l3) << int(l4) << int(l5) << endl;
 			pswrd_file.close();
