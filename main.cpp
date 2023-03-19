@@ -10,7 +10,7 @@ int main() {
 	char l1, l2, l3, l4, l5;
 	//over simplified the code so as to prevent repeating the word char for each variable 
 
-	while (cin >> l1 >> l2 >> l3 >> l4 >> l5) {
+	while (cin >> l1 >> l2 >> l3 >> l4 >> l5) { 
 		//create an empty variable named pswrd_file which is of type fstream
 		fstream pswrd_file;
 		//open the file or else create the file if its not yet there, using the open function , with parameters filename and the mode of reading of that file 
