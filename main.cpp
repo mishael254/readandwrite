@@ -2,7 +2,7 @@
 #include<iostream> 
 #include<fstream>
 
-using namespace std;
+using namespace std; 
 
 int main() {
 	cout << "the following program takes in your five letter password and siphers it\nInput your five letter password below\n";
