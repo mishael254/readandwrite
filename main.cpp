@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 	cout << "the following program takes in your five letter password and siphers it\nInput your five letter password below\n";
 	//create character variables that will hold the five letters the user inputs
-	char l1, l2, l3, l4, l5;
+	char l1, l2, l3, l4, l5; 
 	//over simplified the code so as to prevent repeating the word char for each variable 
 
 	while (cin >> l1 >> l2 >> l3 >> l4 >> l5) { 
